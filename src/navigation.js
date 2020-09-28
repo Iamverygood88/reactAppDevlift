@@ -9,14 +9,14 @@ class Navigation extends React.Component {
         <nav className="main-nav">
             <h2 className="hidden">Navigation for Travel page</h2>
             <div className="nav-image">
-                <img src={navIcon} alt="navigation image"  />
+                <img src={navIcon} alt="navigation"  />
             </div>
             <ul>
-                <li><a href="#" className="nav-link">Home</a></li>
-                <li><a href="#" className="nav-link">About Us</a></li>
-                <li><a href="#" className="nav-link">Travel</a></li>
-                <li><a href="#" className="nav-link">Schedule</a></li>
-                <li><a href="#" className="nav-link">Contact Us</a></li>
+                <li><a className="nav-link">Home</a></li>
+                <li><a className="nav-link">About Us</a></li>
+                <li><a className="nav-link">Travel</a></li>
+                <li><a className="nav-link">Schedule</a></li>
+                <li><a className="nav-link">Contact Us</a></li>
             </ul>
          </nav>
          <div className="login-sign-btn">

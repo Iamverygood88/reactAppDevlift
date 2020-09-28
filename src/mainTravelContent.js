@@ -1,5 +1,5 @@
 import React from 'react';
-import travelImage from './travel_main_bkg.svg';
+import travel from './travel_main_bkg.svg';
 
 
 class mainContent extends React.Component {
@@ -15,7 +15,7 @@ class mainContent extends React.Component {
                         </div>
                     </article>
                     <div className="travel-img">
-                        <img className="travel-img" src={travelImage} alt="Tourist Attractions" />
+                        <img className="travel-img" src={travel} alt="Tourist Attractions" />
                     </div>
         </div>
       )
